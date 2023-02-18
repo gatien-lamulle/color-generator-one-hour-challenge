@@ -1,0 +1,23 @@
+.favorites {
+    margin: 70px;
+}
+
+.favorites > .no-favorites {
+    margin: 70px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+
+.favorites > .no-favorites > .no-favorites-explain {
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+}
+
+.favorites > .no-favorites > .no-favorites-explain > .heart {
+    vertical-align: middle;
+    color: #ff0000;
+}

@@ -1,0 +1,9 @@
+.color-generator {
+    margin: 70px;
+}
+  
+  .color-generator > .MuiButtonBase-root {
+    margin-left: 250px;
+    background-color: white;
+    font-size: 1.3rem;
+  }

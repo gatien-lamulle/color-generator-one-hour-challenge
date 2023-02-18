@@ -1,0 +1,67 @@
+.color-searcher {
+    margin: 70px;
+}
+
+.color-searcher > .explication {
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.color-searcher a.custom-link {
+    color: #E4C460;
+    text-decoration: underline;
+}
+
+.color-searcher > .MuiAccordion-root {
+    background-color: #322C2B !important;
+    /* border: none !important; */
+    color: white !important;
+    margin-bottom: 20px;
+    box-shadow: none !important;
+    /* border-top: solid 1px white !important; */
+    /* box-shadow: 0px 2px 1px -1px rgb(255, 255, 255),0px 1px 1px 0px rgba(255, 255, 255),0px 1px 3px 0px rgba(255, 255, 255); */
+}
+
+.color-searcher > .MuiAccordion-root i {
+    font-size: 0.8rem;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.color-searcher > .MuiAccordion-root .MuiAccordionDetails-root {
+    padding: 0 !important;
+}
+
+.color-searcher > .MuiAccordion-root ul {
+    margin-top: 0 !important;
+    list-style: none;
+    line-height: 1.7rem;
+}
+
+.color-searcher .MuiSvgIcon-root > path {
+    color: white !important;
+}
+
+.color-searcher > .searcher > label, .color-searcher > .searcher > .MuiInputBase-root {
+    color: white;
+    margin-top: 20px;
+}
+
+.color-searcher > .searcher > .MuiInputBase-root > input, .color-searcher > .searcher > .MuiInputBase-root > fieldset {
+    border-color: white;
+}
+
+.MuiIconButton-colorPrimary {
+    color: white !important;
+}
+
+.color-searcher > .loading {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    margin-top: 200px;
+    margin-left: 48%;
+}

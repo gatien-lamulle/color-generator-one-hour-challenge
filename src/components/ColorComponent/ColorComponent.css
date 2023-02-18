@@ -1,0 +1,33 @@
+div.color {
+    width: 250px;
+    height: 250px;
+    border: 3px white solid;
+    border-radius: 30px;
+    cursor: url("../../assets/Eyedropper-icon.png") 0 110, auto;
+    
+}
+
+div.color-wrapper {
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+span.color-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.favorite-icon {
+    cursor: pointer;
+}
+
+.MuiTooltip-tooltipArrow {
+    background-color: #E4C460 !important;
+    color: #322C2B !important;
+}
+
+.MuiTooltip-arrow {
+    color: #E4C460 !important;
+}

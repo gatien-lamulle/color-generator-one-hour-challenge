@@ -1,0 +1,36 @@
+.color-picker > .popover {
+    position: absolute;
+    z-index: 2;
+}
+
+.color-picker > .popover > .cover {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.color-picker > .color-picker-input  {
+    min-height: 45px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.color-picker > .color-picker-input .MuiInputBase-root {
+    font-size: 1.5rem;
+}
+
+.color-picker > .color-picker-input label:not(.MuiInputLabel-shrink) {
+    font-size: 1.5rem;
+}
+
+.color-picker > .color-picker-input label, .color-picker > .color-picker-input .MuiInputBase-root {
+    color: white;
+}
+
+.color-picker > .color-picker-input .MuiInputBase-root, .color-picker > .color-picker-input .MuiInputBase-root::before
+, .color-picker > .color-picker-input .MuiInputBase-root::after, .color-picker > .color-picker-input .MuiInputBase-root:hover:not(.Mui-disabled):before {
+    border-color: white;
+}
+

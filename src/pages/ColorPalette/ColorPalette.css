@@ -1,0 +1,11 @@
+.color-palette {
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-palette > .input-color {
+
+}
