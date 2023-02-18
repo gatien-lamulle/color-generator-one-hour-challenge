@@ -60,6 +60,7 @@ function ColorComponent(props) {
         let favoriteColors = JSON.parse(localStorage.getItem('favorites-colors'));
         favoriteColors.splice(favoriteColors.indexOf(props.color), 1);
         localStorage.setItem('favorites-colors', JSON.stringify(favoriteColors));
+        props.refresh(favoriteColors);
     }
 
     return (

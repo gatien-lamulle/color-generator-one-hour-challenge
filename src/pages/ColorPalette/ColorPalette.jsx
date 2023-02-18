@@ -78,7 +78,7 @@ function ColorPalette() {
 
     return (
         <div className='color-palette'>
-            <ColorPicker width={1100} onChange={setPrimaryColor} />
+            <ColorPicker width={"90%"} onChange={setPrimaryColor} />
             {colors.length > 0 && <ColorsPrinter colors={colors} />}
         </div>
     );

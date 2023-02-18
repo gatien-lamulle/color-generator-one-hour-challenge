@@ -10,6 +10,13 @@
 
 }
 
+@media screen and (max-width: 750px) {
+
+    .header {
+        flex-direction: column;
+    }
+}
+
 .header > .header-item {
     padding: 20px;
     text-decoration: none;

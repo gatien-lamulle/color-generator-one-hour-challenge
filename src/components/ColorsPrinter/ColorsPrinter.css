@@ -25,3 +25,26 @@ div.colors > .switch > .selected-mode {
     transform: scale(1.3);
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 900px) {
+    div.colors {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    div.colors > .switch {
+        position: static;
+        top: 0;
+        right: 0;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    div.colors {
+        flex-wrap: nowrap;
+    }
+
+}

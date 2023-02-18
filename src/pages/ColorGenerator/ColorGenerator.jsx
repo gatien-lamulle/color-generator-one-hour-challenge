@@ -41,7 +41,7 @@ function ColorGenerator() {
                 variant='contained'
                 startIcon={<AutorenewSharpIcon />}
             >
-                Generate Random Colors
+                <span className='txt-btn'> Generate Random Colors </span>
             </Button>
 
             <ColorsPrinter colors={colors} />

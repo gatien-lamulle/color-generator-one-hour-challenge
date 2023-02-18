@@ -21,7 +21,7 @@ function ColorsPrinter(props) {
             {props.colors &&
                 props.colors.map((item) => {
                     return (
-                        <ColorComponent key={item} color={item} rgb={rgbMode} />
+                        <ColorComponent key={item} color={item} rgb={rgbMode} refresh={props.refresh} />
                     );
                 })}
         </div>

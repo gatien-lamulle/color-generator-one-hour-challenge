@@ -34,3 +34,12 @@
     border-color: white;
 }
 
+@media screen and (max-width: 300px) {
+    .color-picker > .color-picker-input .MuiInputBase-root {
+        font-size: 1rem;
+    }
+    
+    .color-picker > .color-picker-input label:not(.MuiInputLabel-shrink) {
+        font-size: 1rem;
+    }
+}

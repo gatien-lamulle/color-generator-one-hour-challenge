@@ -65,3 +65,38 @@
     margin-top: 200px;
     margin-left: 48%;
 }
+
+.color-searcher .MuiAccordionSummary-content {
+    display: inline;
+}
+
+
+@media screen and (max-width: 750px) {
+    .color-searcher .MuiCircularProgress-root {
+        margin-top: 90px;
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .color-searcher {
+        margin: 30px;
+    }
+    .color-searcher > .explication {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .color-searcher .MuiAccordion-root {
+        margin: 0 !important;
+    }
+
+    .color-searcher .MuiAccordionDetails-root li {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+    

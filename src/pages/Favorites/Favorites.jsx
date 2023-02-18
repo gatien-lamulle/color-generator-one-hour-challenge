@@ -19,7 +19,7 @@ function Favorites() {
     return (
         <div className='favorites'>
             {favorites.length > 0 ? (
-                <ColorsPrinter colors={favorites} />
+                <ColorsPrinter colors={favorites} refresh={setFavorites} />
             ) : (
                 <div className='no-favorites'>
                     No favorites selected yet
